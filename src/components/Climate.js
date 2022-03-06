@@ -26,7 +26,7 @@ const Climate = ({name, temp, windSpeed, clouds, pressure, icon}) => {
             <h3 >{name}</h3>
             <div className="contendImgData">
                 <div className="cont_temp">
-                   <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} />
+                   <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt="logo clima" />
                     <h2>{(temperature=="NaN °C")?centigrade+" °C": temperature}</h2>
                 </div>
                 <div className="data_climate">
