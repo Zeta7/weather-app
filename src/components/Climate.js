@@ -11,7 +11,7 @@ const Climate = ({name, temp, windSpeed, clouds, pressure, icon}) => {
     const [bool, setBool] = useState(true);
 
     const view = () =>{
-        if(bool == true){
+        if(bool === true){
             setTemperature(fahrenheit+" °F")
             setBool(false);
         }else{
