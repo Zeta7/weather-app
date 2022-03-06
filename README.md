@@ -71,3 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # WheaterApp
 # weather-app
 # weather-app
+
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/90d34ebe-7ea2-4d6d-9905-eaf74c40f2ac/deploy-status)](https://app.netlify.com/sites/awesome-carson-b6c609/deploys)
