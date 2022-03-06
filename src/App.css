@@ -1,0 +1,113 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contend_loading{
+  background-color: rgb(218, 216, 216);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App{
+  background-image: url(https://cdn.pixabay.com/photo/2019/05/30/13/30/clouds-4239928_960_720.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contendClimate{
+  width: 600px;
+  height: 70vh;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px  rgba(8, 158, 163, 0.302);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0px;
+  justify-content: space-around;
+  font-family: 'Patrick Hand', cursive;
+  background-color: rgba(255, 255, 255, 0.974);
+}
+.contendClimate h1{
+  font-size: 45px;
+  color: rgb(8, 158, 163);
+}
+.contendClimate h3{
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+.contendImgData{
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+i{
+  color:  rgb(8, 158, 163);
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data_climate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.data_climate h3{
+  font-size: 20px;
+  padding: 5px 0px;
+}
+.cont_temp {
+  margin-top: 20px;
+}
+.cont_temp h2{
+  text-align: center;
+  font-size: 35px;
+  color:rgb(8, 158, 163);
+}
+.cont_temp img{
+  width: 130px;
+  margin-top: -80px;
+}
+input{
+  background-color: rgb(8, 158, 163);
+  width: 200px;
+  height: 38PX;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+}
+input:hover{
+  cursor: pointer;
+  background-color:rgb(5, 114, 118);
+}
+
+@media screen and (max-width:650px){
+  .contendClimate{
+      width: 90vw;
+      height: 70vh;
+  }
+  @media screen and (max-width:500px){
+      .contendImgData{
+          padding: 0px 0px;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+      .cont_temp img{
+          width: 100px;
+          margin-top: -40px;
+          margin-bottom: -30px;
+      }
+      
+  }
+}
